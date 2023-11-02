@@ -4,3 +4,7 @@ from django.http import HttpResponse
 
 def index(request):
 	return HttpResponse("Prakhar Dwivedi")
+
+
+def master_function(request):
+	return HttpResponse("Master Branch")
