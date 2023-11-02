@@ -12,4 +12,6 @@ def master_function(request):
 def second_function_develop_branch(request):
 	return HttpResponse("Second function develop branch")
 
+def third_function_develop(request):
+	return HttpResponse("third function develop.")
 
