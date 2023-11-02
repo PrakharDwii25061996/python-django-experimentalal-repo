@@ -12,4 +12,6 @@ def master_function(request):
 def second_function_develop_branch(request):
 	return HttpResponse("Second function develop branch")
 
+def first_function_feature_branch(request):
+	return HttpResponse("First function featue branch")
 
