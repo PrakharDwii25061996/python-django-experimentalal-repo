@@ -15,3 +15,5 @@ def second_function_develop_branch(request):
 def third_function_develop(request):
 	return HttpResponse("third function develop.")
 
+def incorrect_reset_command(request):
+	return HttpResponse("incorrect_reset_command")
