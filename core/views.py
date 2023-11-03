@@ -15,3 +15,6 @@ def second_function_develop_branch(request):
 def third_function_develop(request):
 	return HttpResponse("third function develop.")
 
+def function_incorrect_commmit_branch(request):
+	return HttpResponse("Function Incorrect branch.")
+
