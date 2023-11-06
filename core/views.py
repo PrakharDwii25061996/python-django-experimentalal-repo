@@ -15,3 +15,6 @@ def second_function_develop_branch(request):
 def third_function_develop(request):
 	return HttpResponse("third function develop.")
 
+def git_revert_command_function(request):
+	return HttpResponse("git revert.")
+
